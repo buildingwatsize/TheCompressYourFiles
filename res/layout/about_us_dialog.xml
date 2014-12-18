@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<ScrollView
+     
+      android:fillViewport="true"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+      
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="20dp" >
+
+         <LinearLayout
+             android:id="@+id/linearLayout1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_centerHorizontal="true"
+             android:orientation="horizontal" >
+         </LinearLayout>
+
+         <TextView
+             android:id="@+id/name_app"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="39dp"
+             android:paddingBottom="10dp"
+             android:text="TheCompressYourFiles"
+             android:textColor="@color/icswhite"
+             android:textSize="25dp" />
+
+         <TextView
+             android:id="@+id/version_app"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/name_app"
+             android:layout_centerHorizontal="true"
+             android:paddingTop="10dp"
+             android:text="BETA Version"
+             android:textSize="20sp" />
+
+         <TextView
+             android:id="@+id/name_developer"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/version_app"
+             android:layout_centerHorizontal="true"
+             android:paddingTop="10dp"
+             android:text="Developed By : watsize"
+             android:textSize="17sp" />
+
+         <Button
+             android:id="@+id/contact_button"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/name_developer"
+             android:layout_centerHorizontal="true"
+             android:layout_weight="1"
+             android:text="Email" />
+
+         <Button
+             android:id="@+id/cancel_button"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/contact_button"
+             android:layout_below="@+id/contact_button"
+             android:layout_weight="1"
+             android:text="Cancel" />
+
+     </RelativeLayout>
+   
+</ScrollView>
+</merge>  
+
